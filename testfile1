@@ -1,0 +1,44 @@
+WebClient Technology Sample 
+===========================
+     This sample demonstrates how to use the WebClient type to connect to an FTP server and perform common operations,
+     such as the upload or download of files or data.
+
+
+Sample Language Implementations 
+===============================
+     This sample is available in the following language implementations:
+     C#,VB
+
+
+To build the sample using the Command Prompt 
+============================================
+     1. Open an SDK Command Prompt window and navigate to one of the language-specific subdirectories under the WebClientSample directory.
+
+     2. Type msbuild.exe WebClientSample<lang>.sln at the command line where <lang> is either CS or VB.
+
+
+To build the sample using Visual Studio 
+=======================================
+     1. Open Windows Explorer and navigate to one of the language-specific subdirectories under the WebClientSample directory.
+
+     2. Double-click the icon for the .sln (solution) file to open the file in Visual Studio.
+
+     3. On the Build menu, click Build Solution. 
+
+     The application is built in the default \bin\Debug directory.
+
+
+To run the sample 
+=================
+     1. Navigate to the directory that contains the new executable, using the command prompt or Windows Explorer.
+
+     2. Type WebClientSample.exe at the command line. 
+
+     Note: The sample builds a console application. You must launch and run it from the Command Prompt window to view its output.
+
+
+Remarks 
+=======
+     The sample assumes that the FTP server uses anonymous authentication. If you supply the name of a server that 
+     uses a different means of authentication, the requested upload or download fails. The sample also requires relative 
+     path information. Full paths are not supported.
